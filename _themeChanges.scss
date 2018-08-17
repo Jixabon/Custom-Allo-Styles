@@ -1,0 +1,44 @@
+.themedBackground {
+    background-color: white;
+    background-image: none;
+}
+
+.themedIncomingBubble {
+    background-color: $custom-incoming-light;
+    color: $custom-incoming-dark;
+}
+
+.themedOutgoingBubble {
+    background-color: $custom-outgoing-light;
+    color: $custom-outgoing-dark;
+}
+
+.themedSendButton.active, .themedSendSlider.active {
+    background: $custom-bright-blue;
+    color: $custom-bright-blue;
+}
+
+iron-icon.message-status, .themedDeliveryIconSent, .themedDeliveryIconDelivered, .themedDeliveryIconRead {
+    fill: $custom-outgoing-dark;
+    stroke: $custom-outgoing-dark;
+}
+
+.unreadCount.conversations-view {
+    background: #174ea6;
+}
+
+.themedSmartReply {
+    /*background: none /* default */
+    border-color: $custom-outgoing-dark;
+    color: $custom-outgoing-dark;
+}
+
+suggestion-message {
+    #prevPage, #nextPage {
+        color: $custom-black-transparent-54;
+    }
+}
+
+.themedText {
+    color: $custom-black-transparent-54;
+}

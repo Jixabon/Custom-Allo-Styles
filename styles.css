@@ -1,0 +1,257 @@
+.themedBackground {
+  background-color: white;
+  background-image: none;
+}
+
+.themedIncomingBubble {
+  background-color: #f1f3f4;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.themedOutgoingBubble {
+  background-color: #d2e3fc;
+  color: #174ea6;
+}
+
+.themedSendButton.active, .themedSendSlider.active {
+  background: #1a73e8;
+  color: #1a73e8;
+}
+
+iron-icon.message-status, .themedDeliveryIconSent, .themedDeliveryIconDelivered, .themedDeliveryIconRead {
+  fill: #174ea6;
+  stroke: #174ea6;
+}
+
+.unreadCount.conversations-view {
+  background: #174ea6;
+}
+
+.themedSmartReply {
+  /*background: none /* default */
+  border-color: #174ea6;
+  color: #174ea6;
+}
+
+suggestion-message #prevPage, suggestion-message #nextPage {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.themedText {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+h1, h2, h3, h4, h5, h6, .header {
+  font-family: Google Sans,Roboto,arial,sans-serif;
+}
+
+#conversationName.wireball-app {
+  color: rbga(0, 0, 0, 0.87);
+  font: 400 18px/32px Google Sans,Roboto,arial,sans-serif;
+}
+
+#headerTitle.wb-empty-state-view {
+  font-family: 'Google Sans Regular';
+}
+
+.info.conversations-view h3.conversations-view, #startChatButtonString.wireball-app {
+  font: 400 15px/24px Google Sans Regular,Roboto,arial,sans-serif;
+}
+
+.info.conversations-view #snippet.conversations-view {
+  color: rgba(0, 0, 0, 0.54);
+  font: 400 14px/20px Roboto,arial,sans-serif;
+  line-height: 16px;
+  margin-top: 5px;
+}
+
+#leftBar #avatar.wb-avatar-image {
+  height: 40px;
+  width: 40px;
+}
+
+#mainBody.wb-empty-state-view img {
+  background-image: url(https://www.gstatic.com/android-messages-web/images/splash_light.svg);
+  background-repeat: no-repeat;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 50%;
+  margin-bottom: 20px;
+  overflow: hidden;
+  padding: 50% 50% 0 0;
+  position: relative;
+  width: 50%;
+}
+
+app-header[shadow] + #contentContainer.app-header-layout #startChatButton {
+  -webkit-box-shadow: 0 2px 6px 0 rgba(60, 64, 67, 0.15);
+          box-shadow: 0 2px 6px 0 rgba(60, 64, 67, 0.15);
+}
+
+app-header {
+  background: white;
+}
+
+app-header:before {
+  display: none;
+}
+
+#startChatButton {
+  position: fixed;
+  top: 68px;
+  width: 400px;
+}
+
+#startChatButtonIcon.wireball-app {
+  background: #1a73e8;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.14), 0 3px 4px 0 rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0);
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.14), 0 3px 4px 0 rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 20px;
+}
+
+#startChatButtonIcon.wireball-app svg {
+  height: 20px;
+  width: 20px;
+}
+
+#contentContainer.app-header-layout {
+  margin-top: calc(68px * 2);
+}
+
+wireball-app-status {
+  margin-bottom: 0;
+}
+
+.conversationHeader {
+  background: rgba(255, 255, 255, 0.96);
+}
+
+.conversationHeader + #contentContainer {
+  margin-top: 0;
+}
+
+app-header-layout[has-scrolling-region] #wrapper.app-header-layout #contentContainer.app-header-layout {
+  overflow-x: hidden;
+}
+
+@media screen and (min-width: 560px) {
+  nav.wireball-app, #startChatButton {
+    width: 220px;
+  }
+}
+
+@media screen and (min-width: 680px) {
+  nav.wireball-app, #startChatButton {
+    width: 305px;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  nav.wireball-app, #startChatButton {
+    width: 340px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  nav.wireball-app, #startChatButton {
+    width: 400px;
+  }
+}
+
+nav.condensed.wireball-app:not(.open) {
+  width: 84px;
+}
+
+nav.condensed.wireball-app:not(.open) #startChatButton {
+  width: 84px;
+}
+
+nav.condensed.wireball-app:not(.open) #startChatButtonIcon.wireball-app {
+  padding: 10px;
+}
+
+nav.condensed.wireball-app.open #startChatButton {
+  width: 100%;
+}
+
+user-message #avatar.wb-avatar-image {
+  height: 34px;
+  width: 34px;
+}
+
+wb-empty-state-view {
+  background: none;
+}
+
+#compose.compose-bar {
+  -webkit-box-shadow: 0 1px 5px 0 rgba(60, 64, 67, 0.15), 0 4px 4px 0 rgba(60, 64, 67, 0.1), 0 -0.1px 3px 0 rgba(60, 64, 67, 0.08);
+          box-shadow: 0 1px 5px 0 rgba(60, 64, 67, 0.15), 0 4px 4px 0 rgba(60, 64, 67, 0.1), 0 -0.1px 3px 0 rgba(60, 64, 67, 0.08);
+}
+
+.dropdown-content {
+  border-radius: 8px;
+}
+
+.view.conversation-info-sidebar {
+  margin-top: 68px;
+}
+
+#close.conversation-info-sidebar {
+  top: 90px;
+}
+
+.largeProfileView.conversation-info-sidebar {
+  background: none;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+large-profile-view {
+  border-bottom: 1px solid #e1e1e1;
+}
+
+large-profile-view.user-info-panel {
+  background: white;
+}
+
+large-profile-view #avatar.wb-avatar-image {
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.14), 0 3px 4px 0 rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0);
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.14), 0 3px 4px 0 rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0);
+}
+
+.info.large-profile-view h2.large-profile-view, .info.large-profile-view h4.large-profile-view {
+  color: rgba(0, 0, 0, 0.87);
+}
+
+#close.user-info-panel {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+#close.user-info-panel:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+  border-radius: 50%;
+}
+
+#sidebarContainer.messages-view {
+  position: absolute;
+  right: 0;
+}
+
+#conversationInfoSidebarView.conversation-info-sidebar, .view.conversation-info-sidebar {
+  height: calc(100% - 34px);
+}
+
+wb-theme-selector#themeSelector, #settings.conversation-info-sidebar + h4.conversation-info-sidebar {
+  display: none;
+}
+/*# sourceMappingURL=styles.css.map */
