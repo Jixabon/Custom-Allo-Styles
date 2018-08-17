@@ -99,7 +99,6 @@ app-header:before {
 #startChatButton {
   position: fixed;
   top: 68px;
-  width: 400px;
 }
 
 #startChatButtonIcon.wireball-app {
@@ -143,30 +142,6 @@ wireball-app-status {
 
 app-header-layout[has-scrolling-region] #wrapper.app-header-layout #contentContainer.app-header-layout {
   overflow-x: hidden;
-}
-
-@media screen and (min-width: 560px) {
-  nav.wireball-app, #startChatButton {
-    width: 220px;
-  }
-}
-
-@media screen and (min-width: 680px) {
-  nav.wireball-app, #startChatButton {
-    width: 305px;
-  }
-}
-
-@media screen and (min-width: 960px) {
-  nav.wireball-app, #startChatButton {
-    width: 340px;
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  nav.wireball-app, #startChatButton {
-    width: 400px;
-  }
 }
 
 nav.condensed.wireball-app:not(.open) {
@@ -253,5 +228,29 @@ large-profile-view #avatar.wb-avatar-image {
 
 wb-theme-selector#themeSelector, #settings.conversation-info-sidebar + h4.conversation-info-sidebar {
   display: none;
+}
+
+@media screen and (min-width: 560px) {
+  nav.wireball-app, #startChatButton.wireball-app {
+    width: 220px !important;
+  }
+}
+
+@media screen and (min-width: 680px) {
+  nav.wireball-app, #startChatButton.wireball-app {
+    width: 305px !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  nav.wireball-app, #startChatButton.wireball-app {
+    width: 340px !important;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  nav.wireball-app, #startChatButton.wireball-app {
+    width: 400px !important;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
