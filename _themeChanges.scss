@@ -13,6 +13,10 @@
     color: $custom-outgoing-dark;
 }
 
+.noBubble {
+    background-color: transparent !important;
+}
+
 .themedSendButton.active, .themedSendSlider.active {
     background: $custom-bright-blue;
     color: $custom-bright-blue;
